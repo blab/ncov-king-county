@@ -1,0 +1,14 @@
+
+configfile:
+  - defaults/parameters.yaml # Pull in the default values
+  - my_profiles/variant_specific/builds.yaml  # Pull in our list of desired builds
+
+
+cores: 16
+keep-going: True
+printshellcmds: True
+reason: True
+show-failed-logs: True
+restart-times: 1
+stats: stats.json
+set-threads: tree=4

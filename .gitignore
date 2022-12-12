@@ -1,0 +1,18 @@
+# Ignore everything in this directory
+.DS_Store
+xmls/sim*
+xmls/*rep1*
+xmls/*rep2*
+*.pdf
+out/*rep*
+out/*.trees
+*json
+*json.zip
+*.xml
+*.log
+*.trees
+*.tree
+*.out
+*.state
+*.fasta
+Simulations/Validation-Constant/data/kc_clusters_combined.fasta

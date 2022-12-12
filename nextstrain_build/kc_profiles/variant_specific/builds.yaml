@@ -1,0 +1,222 @@
+# This is where we define which builds we'd like to run.
+# This example includes 4 separate builds, ranging from the regional (global) to location (county) level.
+# You can comment-out, remove, or add as many builds as you'd like.
+
+# Each build needs a name, a defined subsampling process, and geographic attributes used for subsampling.
+# Geography is specified by build attributes (e.g., `region`, `country`, `division`, `location`) that are referenced from subsampling schemes.
+
+# The default config file, `./defaults/parameters.yaml` has reasonable default subsampling methods for each geographic resolution.
+# These subsample primarily from the area of interest ("focus"), and add in background ("contextual") sequences from the rest of the world.
+# Contextual sequences that are genetically similar to (hamming distance) and geographically near the focal sequences are heavily prioritized.
+
+# In this example, we use these default methods. See other templates for examples of how to customize this subsampling scheme.
+custom_rules:
+     - my_profiles/variant_specific/download_metadata_with_puma.smk
+
+inputs:
+  - name: gisaid
+    metadata: "data/metadata_kc_puma.tsv"
+    aligned: s3://nextstrain-ncov-private/aligned.fasta.xz
+    skip_sanitize_metadata: true
+
+# Defines next align specs
+genes: ["ORF1a", "ORF1b", "S", "ORF3a", "E", "M", "ORF6", "ORF7a", "ORF7b", "ORF8", "N", "ORF9b"]
+use_nextalign: true
+
+builds:
+  # Focus on King County (location) in Washington State (division) in the USA (country)
+  # with a build name that will produce the following URL fragment on Nextstrain/auspice:
+  # /ncov/north-america/usa/washington/king-county
+
+  alpha_sub:
+    subsampling_scheme: alpha_only
+    title: Genomic epidemiology of SARS-CoV-2 in King County with Alpha only subsampling
+    region: North America
+    country: USA
+    division: Washington
+    location: King County
+
+  delta_sub:
+    subsampling_scheme: delta_only
+    title: Genomic epidemiology of SARS-CoV-2 in King County with delta only subsampling
+    region: North America
+    country: USA
+    division: Washington
+    location: King County
+
+  omicron_sub:
+    subsampling_scheme: omicron_only
+    title: Genomic epidemiology of SARS-CoV-2 in King County with omicron only subsampling
+    region: North America
+    country: USA
+    division: Washington
+    location: King County
+
+  other_sub:
+    subsampling_scheme: other_only
+    title: Genomic epidemiology of SARS-CoV-2 in King County with other clade only subsampling
+    region: North America
+    country: USA
+    division: Washington
+    location: King County
+
+# Define custom subsampling logic for county-level builds.
+subsampling:
+
+
+  alpha_only:
+    focal:
+      group_by: "year month"
+      max_sequences: 3000
+      query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}') & (Nextstrain_clade == '20I (Alpha, V1)')"
+
+#Washington focused subsampling
+    division:
+      group_by: "location year month"
+      max_sequences: 10000
+      query: --query "(location != '{location}') & (division == 'Washington') & (Nextstrain_clade == '20I (Alpha, V1)')"
+    #  exclude: "--exclude-where 'location={location}''division!=Washington' 'Nextstrain_clade != 20I (Alpha, V1)' "
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    country:
+      group_by: "division year month"
+      max_sequences: 7000
+      query: --query "(region == '{region}') & (country == ''{country}) & (division != 'Washington') & (Nextstrain_clade == '20I (Alpha, V1)')"
+    #  exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}' 'Nextstrain_clade != 20I (Alpha, V1)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    global:
+      group_by: "country year month"
+      max_sequences: 5000
+      query: --query "(region != '{region}') & (Nextstrain_clade == '20I (Alpha, V1)')"
+#      exclude: "--exclude-where 'region={region}' 'Nextstrain_clade != 20I (Alpha, V1)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+  delta_only:
+    focal:
+      group_by: "year month"
+      max_sequences: 3000
+      query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}') & (Nextstrain_clade == '21A (Delta)' | Nextstrain_clade == '21I (Delta)' | Nextstrain_clade == '21J (Delta)')"
+
+#Washington focused subsampling
+    division:
+      group_by: "location year month"
+      max_sequences: 10000
+      query: --query "(division == 'Washington') & (location != '{location}') & (Nextstrain_clade == '21A (Delta)' | Nextstrain_clade == '21I (Delta)' | Nextstrain_clade == '21J (Delta)')"
+  #    exclude: "--exclude-where 'division!=Washington' 'location={location}' 'Nextstrain_clade != 21A (Delta)'  'Nextstrain_clade != 21I (Delta)'  'Nextstrain_clade != 21J (Delta)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    country:
+      group_by: "division year month"
+      max_sequences: 7000
+      query: --query "(region == '{region}') & (country == '{country}') & (division != '{division}')  & (Nextstrain_clade == '21A (Delta)' | Nextstrain_clade == '21I (Delta)' | Nextstrain_clade == '21J (Delta)')"
+#      exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}' 'Nextstrain_clade != 21A (Delta)'  'Nextstrain_clade != 21I (Delta)'  'Nextstrain_clade != 21J (Delta)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    global:
+      group_by: "country year month"
+      max_sequences: 5000
+      query: --query "(region != '{region}') & (Nextstrain_clade == '21A (Delta)' | Nextstrain_clade == '21I (Delta)' | Nextstrain_clade == '21J (Delta)')"
+  #    exclude: "--exclude-where 'region={region}' 'Nextstrain_clade != 21A (Delta)'  'Nextstrain_clade != 21I (Delta)'  'Nextstrain_clade != 21J (Delta)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+  omicron_only:
+    focal:
+      group_by: "year month"
+      max_sequences: 3000
+      query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}') & (Nextstrain_clade == '21K (Omicron)' | Nextstrain_clade == '21L (Omicron)' | Nextstrain_clade == '21M (Omicron)')"
+
+#Washington focused subsampling
+    division:
+      group_by: "location year month"
+      max_sequences: 10000
+      query: --query "(division == '{division}') & (location != '{location}') & (Nextstrain_clade == '21K (Omicron)' | Nextstrain_clade == '21L (Omicron)' | Nextstrain_clade == '21M (Omicron)')"
+  #    exclude: "--exclude-where 'division!=Washington' 'location={location}'  'Nextstrain_clade != 21K (Omicron)'  'Nextstrain_clade != 21L (Omicron)'  'Nextstrain_clade != 21M (Omicron)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    country:
+      group_by: "division year month"
+      max_sequences: 7000
+      query: --query "(region == '{region}') & (country == '{country}') & (division != '{division}') & (Nextstrain_clade == '21K (Omicron)' | Nextstrain_clade == '21L (Omicron)' | Nextstrain_clade == '21M (Omicron)')"
+  #    exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}' 'Nextstrain_clade != 21K (Omicron)'  'Nextstrain_clade != 21L (Omicron)'  'Nextstrain_clade != 21M (Omicron)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    global:
+      group_by: "country year month"
+      max_sequences: 5000
+      query: --query "(region != '{region}') & (Nextstrain_clade == '21K (Omicron)' | Nextstrain_clade == '21L (Omicron)' | Nextstrain_clade == '21M (Omicron)')"
+  #    exclude: "--exclude-where 'region={region}' 'Nextstrain_clade != 21K (Omicron)'  'Nextstrain_clade != 21L (Omicron)'  'Nextstrain_clade != 21M (Omicron)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+#other subsampling
+
+
+  other_only:
+    focal:
+      group_by: "year month"
+      max_sequences: 3000
+      query: --query "(country == '{country}') & (division == '{division}') & (location == '{location}') & (Nextstrain_clade != '21K (Omicron)') & (Nextstrain_clade != '21L (Omicron)') & (Nextstrain_clade != '21M (Omicron)') & (Nextstrain_clade != '21A (Delta)') & (Nextstrain_clade != '21I (Delta)') & (Nextstrain_clade != '21J (Delta)') & (Nextstrain_clade != '20I (Alpha, V1)')"
+
+#Washington focused subsampling
+    division:
+      group_by: "location year month"
+      max_sequences: 10000
+      query: --query "(division == '{division}') & (location != '{location}') & (Nextstrain_clade != '21K (Omicron)') & (Nextstrain_clade != '21L (Omicron)') & (Nextstrain_clade != '21M (Omicron)') & (Nextstrain_clade != '21A (Delta)') & (Nextstrain_clade != '21I (Delta)') & (Nextstrain_clade != '21J (Delta)') & (Nextstrain_clade != '20I (Alpha, V1)')"
+  #    exclude: "--exclude-where 'division!=Washington' 'location={location}' 'Nextstrain_clade = 21K (Omicron)'  'Nextstrain_clade = 21L (Omicron)'  'Nextstrain_clade = 21M (Omicron)' 'Nextstrain_clade = 21A (Delta)' 'Nextstrain_clade = 21I (Delta)' 'Nextstrain_clade = 21J (Delta)'  'Nextstrain_clade = 20I (Alpha, V1)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    country:
+      group_by: "division year month"
+      max_sequences: 7000
+      query: --query "(region == '{region}') & (country == '{country}') & (division != '{division}') & (Nextstrain_clade != '21K (Omicron)') & (Nextstrain_clade != '21L (Omicron)') & (Nextstrain_clade != '21M (Omicron)') & (Nextstrain_clade != '21A (Delta)') & (Nextstrain_clade != '21I (Delta)') & (Nextstrain_clade != '21J (Delta)') & (Nextstrain_clade != '20I (Alpha, V1)')"
+    #  exclude: "--exclude-where 'region!={region}' 'country!={country}' 'division={division}' 'Nextstrain_clade = 21K (Omicron)'  'Nextstrain_clade = 21L (Omicron)'  'Nextstrain_clade = 21M (Omicron)' 'Nextstrain_clade = 21A (Delta)' 'Nextstrain_clade = 21I (Delta)' 'Nextstrain_clade = 21J (Delta)'  'Nextstrain_clade = 20I (Alpha, V1)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+    global:
+      group_by: "country year month"
+      max_sequences: 5000
+      query: --query "(region != '{region}') & (Nextstrain_clade != '21K (Omicron)') & (Nextstrain_clade != '21L (Omicron)') & (Nextstrain_clade != '21M (Omicron)') & (Nextstrain_clade != '21A (Delta)') & (Nextstrain_clade != '21I (Delta)') & (Nextstrain_clade != '21J (Delta)') & (Nextstrain_clade != '20I (Alpha, V1)')"
+    #  exclude: "--exclude-where 'region={region}' 'Nextstrain_clade = 21K (Omicron)'  'Nextstrain_clade = 21L (Omicron)'  'Nextstrain_clade = 21M (Omicron)' 'Nextstrain_clade = 21A (Delta)' 'Nextstrain_clade = 21I (Delta)' 'Nextstrain_clade = 21J (Delta)'  'Nextstrain_clade = 20I (Alpha, V1)'"
+      priorities:
+        type: "proximity"
+        focus: "focal"
+
+
+
+
+
+# Here, you can specify what type of auspice_config you want to use
+# and what description you want. These will apply to all the above builds.
+# If you want to specify specific files for each build - you can!
+# See the 'example_advanced_customization' builds.yaml
+files:
+  auspice_config: "my_profiles/variant_specific/my_auspice_config.json"
+  description: "my_profiles/variant_specific/my_description.md"
+  colors: "my_profiles/variant_specific/colors.tsv"
+
+traits:
+
+  north-america_usa_washington_king-county_large: ### build name
+    sampling_bias_correction: 2.5
+    columns: ["Puma", "ns_kc"] ### traits to reconstruct; must match column names in metadata.tsv

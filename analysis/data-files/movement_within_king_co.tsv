@@ -1,0 +1,889 @@
+start_date	poi_geo	visitor_geo	sum_visits	category
+2018-01-01	North King	North King	6618739.703851811	within North
+2018-01-01	North King	South King	781096.6920415498	South to North
+2018-01-01	South King	North King	594227.4115716759	North to South
+2018-01-01	South King	South King	2783090.790641361	within South
+2018-01-08	North King	North King	7403305.988938748	within North
+2018-01-08	North King	South King	928230.5560367317	South to North
+2018-01-08	South King	North King	624250.3093498904	North to South
+2018-01-08	South King	South King	3126633.326307002	within South
+2018-01-15	North King	North King	8113905.635127886	within North
+2018-01-15	North King	South King	985068.8920884755	South to North
+2018-01-15	South King	North King	649285.6681571573	North to South
+2018-01-15	South King	South King	3095142.5450426275	within South
+2018-01-22	North King	North King	8358422.389721695	within North
+2018-01-22	North King	South King	1017050.2882169174	South to North
+2018-01-22	South King	North King	665914.9746261894	North to South
+2018-01-22	South King	South King	3105811.4611499296	within South
+2018-01-29	North King	North King	10702203.348210337	within North
+2018-01-29	North King	South King	1159334.364560318	South to North
+2018-01-29	South King	North King	768319.4425541316	North to South
+2018-01-29	South King	South King	3922749.9023420243	within South
+2018-02-05	North King	North King	9004798.620495046	within North
+2018-02-05	North King	South King	1032419.2171502502	South to North
+2018-02-05	South King	North King	704520.7265281918	North to South
+2018-02-05	South King	South King	3378484.920083267	within South
+2018-02-12	North King	North King	7783856.648010723	within North
+2018-02-12	North King	South King	932859.5145110985	South to North
+2018-02-12	South King	North King	664861.2450712732	North to South
+2018-02-12	South King	South King	3101572.8258254533	within South
+2018-02-19	North King	North King	7462724.586433259	within North
+2018-02-19	North King	South King	918105.7133479211	South to North
+2018-02-19	South King	North King	707135.5689277899	North to South
+2018-02-19	South King	South King	3166858.7915754924	within South
+2018-02-26	North King	North King	9438736.116276953	within North
+2018-02-26	North King	South King	1110228.359657902	South to North
+2018-02-26	South King	North King	740162.7371940679	North to South
+2018-02-26	South King	South King	3767829.228869074	within South
+2018-03-05	North King	North King	7317801.227264214	within North
+2018-03-05	North King	South King	877838.3551167235	South to North
+2018-03-05	South King	North King	610603.6181286769	North to South
+2018-03-05	South King	South King	2964899.628058605	within South
+2018-03-12	North King	North King	6665963.621267012	within North
+2018-03-12	North King	South King	796911.4084500147	South to North
+2018-03-12	South King	North King	572081.9636247919	North to South
+2018-03-12	South King	South King	2755393.819788505	within South
+2018-03-19	North King	North King	8184671.646215712	within North
+2018-03-19	North King	South King	971672.8466589901	South to North
+2018-03-19	South King	North King	734663.3895406219	North to South
+2018-03-19	South King	South King	3407530.1253463086	within South
+2018-03-26	North King	North King	10248803.95276949	within North
+2018-03-26	North King	South King	1287535.5899384557	South to North
+2018-03-26	South King	North King	745615.794619545	North to South
+2018-03-26	South King	South King	4769959.31811824	within South
+2018-04-02	North King	North King	6407954.050494725	within North
+2018-04-02	North King	South King	905227.6551199718	South to North
+2018-04-02	South King	North King	557333.6684317142	North to South
+2018-04-02	South King	South King	3070656.735335226	within South
+2018-04-09	North King	North King	5907314.564972193	within North
+2018-04-09	North King	South King	862053.4657007398	South to North
+2018-04-09	South King	North King	557399.8210608803	North to South
+2018-04-09	South King	South King	2977750.9365655486	within South
+2018-04-16	North King	North King	7236553.310260157	within North
+2018-04-16	North King	South King	983258.2417591233	South to North
+2018-04-16	South King	North King	605555.9793659818	North to South
+2018-04-16	South King	South King	3310850.757710726	within South
+2018-04-23	North King	North King	7649069.503532215	within North
+2018-04-23	North King	South King	1003430.8028357201	South to North
+2018-04-23	South King	North King	605868.4988806368	North to South
+2018-04-23	South King	South King	3373299.371994599	within South
+2018-04-30	North King	North King	9346562.85619562	within North
+2018-04-30	North King	South King	1236930.7546060637	South to North
+2018-04-30	South King	North King	712256.0916743872	North to South
+2018-04-30	South King	South King	4256134.084164441	within South
+2018-05-07	North King	North King	7054454.200219521	within North
+2018-05-07	North King	South King	944297.366222024	South to North
+2018-05-07	South King	North King	552698.1151417914	North to South
+2018-05-07	South King	South King	3123686.0235826652	within South
+2018-05-14	North King	North King	7015096.51119255	within North
+2018-05-14	North King	South King	938776.4845386768	South to North
+2018-05-14	South King	North King	525920.8399603636	North to South
+2018-05-14	South King	South King	3092979.864943849	within South
+2018-05-21	North King	North King	6782914.73173086	within North
+2018-05-21	North King	South King	997605.7056087808	South to North
+2018-05-21	South King	North King	520876.26823215286	North to South
+2018-05-21	South King	South King	3150480.711708864	within South
+2018-05-28	North King	North King	8334989.31966398	within North
+2018-05-28	North King	South King	1164165.4301947993	South to North
+2018-05-28	South King	North King	653601.1263115695	North to South
+2018-05-28	South King	South King	4177707.6110647446	within South
+2018-06-04	North King	North King	6530301.082341344	within North
+2018-06-04	North King	South King	953418.3292606679	South to North
+2018-06-04	South King	North King	536444.3925312225	North to South
+2018-06-04	South King	South King	3250328.136760245	within South
+2018-06-11	North King	North King	6461584.2801218	within North
+2018-06-11	North King	South King	1008618.4345855027	South to North
+2018-06-11	South King	North King	559615.3047143222	North to South
+2018-06-11	South King	South King	3312722.5212935675	within South
+2018-06-18	North King	North King	6823739.887971275	within North
+2018-06-18	North King	South King	1029019.7025108468	South to North
+2018-06-18	South King	North King	574249.0940976846	North to South
+2018-06-18	South King	South King	3505165.658622937	within South
+2018-06-25	North King	North King	7709260.104059264	within North
+2018-06-25	North King	South King	1222606.5456016716	South to North
+2018-06-25	South King	North King	664995.8985316744	North to South
+2018-06-25	South King	South King	4102394.3263139906	within South
+2018-07-02	North King	North King	6069190.144438562	within North
+2018-07-02	North King	South King	1008609.2809336332	South to North
+2018-07-02	South King	North King	560624.0122047244	North to South
+2018-07-02	South King	South King	3338979.169440217	within South
+2018-07-09	North King	North King	6444025.6123315655	within North
+2018-07-09	North King	South King	1036719.4678672903	South to North
+2018-07-09	South King	North King	577877.8805889783	North to South
+2018-07-09	South King	South King	3387067.354548564	within South
+2018-07-16	North King	North King	6239205.280425459	within North
+2018-07-16	North King	South King	1062684.5579360055	South to North
+2018-07-16	South King	North King	555105.3504781997	North to South
+2018-07-16	South King	South King	3273065.225407876	within South
+2018-07-23	North King	North King	6616279.906611075	within North
+2018-07-23	North King	South King	1062859.44957891	South to North
+2018-07-23	South King	North King	610858.9642584199	North to South
+2018-07-23	South King	South King	3466162.9415127467	within South
+2018-07-30	North King	North King	7568126.827006535	within North
+2018-07-30	North King	South King	1214041.499808081	South to North
+2018-07-30	South King	North King	696929.3139912891	North to South
+2018-07-30	South King	South King	4003458.8016027203	within South
+2018-08-06	North King	North King	6295947.478190078	within North
+2018-08-06	North King	South King	1031716.0326470406	South to North
+2018-08-06	South King	North King	588234.9730098317	North to South
+2018-08-06	South King	South King	3338055.9734377507	within South
+2018-08-13	North King	North King	6114005.886565786	within North
+2018-08-13	North King	South King	955437.2588002037	South to North
+2018-08-13	South King	North King	554017.4220616206	North to South
+2018-08-13	South King	South King	3149599.649226901	within South
+2018-08-20	North King	North King	6908911.756445856	within North
+2018-08-20	North King	South King	1041683.8403411346	South to North
+2018-08-20	South King	North King	619958.85898453	North to South
+2018-08-20	South King	South King	3674444.3895279644	within South
+2018-08-27	North King	North King	8728048.385071458	within North
+2018-08-27	North King	South King	1287734.660711909	South to North
+2018-08-27	South King	North King	740719.5970385063	North to South
+2018-08-27	South King	South King	4712823.123585905	within South
+2018-09-03	North King	North King	6845816.916306492	within North
+2018-09-03	North King	South King	992476.8438196608	South to North
+2018-09-03	South King	North King	572829.4594488047	North to South
+2018-09-03	South King	South King	3659094.859144178	within South
+2018-09-10	North King	North King	5460373.663183281	within North
+2018-09-10	North King	South King	855617.1940101364	South to North
+2018-09-10	South King	North King	441034.34826663946	North to South
+2018-09-10	South King	South King	2915500.167808132	within South
+2018-09-17	North King	North King	7039184.84410151	within North
+2018-09-17	North King	South King	1072199.441766534	South to North
+2018-09-17	South King	North King	571952.9543846329	North to South
+2018-09-17	South King	South King	3728110.417223078	within South
+2018-09-24	North King	North King	9309553.695769226	within North
+2018-09-24	North King	South King	1384878.0606483798	South to North
+2018-09-24	South King	North King	709220.5878969632	North to South
+2018-09-24	South King	South King	4866774.637917952	within South
+2018-10-01	North King	North King	6380399.073137211	within North
+2018-10-01	North King	South King	1012650.3576513883	South to North
+2018-10-01	South King	North King	514627.195111769	North to South
+2018-10-01	South King	South King	3497117.375763084	within South
+2018-10-08	North King	North King	6678452.678907576	within North
+2018-10-08	North King	South King	994226.8174664404	South to North
+2018-10-08	South King	North King	554205.6126369388	North to South
+2018-10-08	South King	South King	3619346.6476623984	within South
+2018-10-15	North King	North King	6661440.378990691	within North
+2018-10-15	North King	South King	1025213.8636048925	South to North
+2018-10-15	South King	North King	538169.3781444726	North to South
+2018-10-15	South King	South King	3647468.1899761516	within South
+2018-10-22	North King	North King	6877051.724731183	within North
+2018-10-22	North King	South King	1084030.034408602	South to North
+2018-10-22	South King	North King	573793.8397849462	North to South
+2018-10-22	South King	South King	3723790.8967741933	within South
+2018-10-29	North King	North King	8710622.718454259	within North
+2018-10-29	North King	South King	1326210.1940063091	South to North
+2018-10-29	South King	North King	715375.7133280757	North to South
+2018-10-29	South King	South King	4837233.0315457415	within South
+2018-11-05	North King	North King	6386906.31949936	within North
+2018-11-05	North King	South King	1041230.5190551238	South to North
+2018-11-05	South King	North King	545881.031087271	North to South
+2018-11-05	South King	South King	3577867.1951840688	within South
+2018-11-12	North King	North King	6226620.486559622	within North
+2018-11-12	North King	South King	981828.0213744921	South to North
+2018-11-12	South King	North King	544869.6785529082	North to South
+2018-11-12	South King	South King	3415995.6765603446	within South
+2018-11-19	North King	North King	6225127.399752983	within North
+2018-11-19	North King	South King	939264.7222908377	South to North
+2018-11-19	South King	North King	635679.7019349526	North to South
+2018-11-19	South King	South King	3749475.962353048	within South
+2018-11-26	North King	North King	8475070.164662762	within North
+2018-11-26	North King	South King	1283435.117416754	South to North
+2018-11-26	South King	North King	662946.083963585	North to South
+2018-11-26	South King	South King	4577245.059980019	within South
+2018-12-03	North King	North King	6665976.112881292	within North
+2018-12-03	North King	South King	1042465.6615504177	South to North
+2018-12-03	South King	North King	556057.5570235088	North to South
+2018-12-03	South King	South King	3580141.1871381393	within South
+2018-12-10	North King	North King	6539647.277624066	within North
+2018-12-10	North King	South King	1031080.3840160504	South to North
+2018-12-10	South King	North King	553824.3296985552	North to South
+2018-12-10	South King	South King	3508553.0659823217	within South
+2018-12-17	North King	North King	6807119.452850133	within North
+2018-12-17	North King	South King	1048500.9297557784	South to North
+2018-12-17	South King	North King	609728.6813428546	North to South
+2018-12-17	South King	South King	3926640.6350088194	within South
+2018-12-24	North King	North King	5111945.373045992	within North
+2018-12-24	North King	South King	893469.4120944119	South to North
+2018-12-24	South King	North King	571426.0036831795	North to South
+2018-12-24	South King	South King	3322221.738654725	within South
+2018-12-31	North King	North King	6936292.164702228	within North
+2018-12-31	North King	South King	1078844.4606038593	South to North
+2018-12-31	South King	North King	689121.5574617533	North to South
+2018-12-31	South King	South King	4226051.494069238	within South
+2019-01-07	North King	North King	6127660.506981148	within North
+2019-01-07	North King	South King	967144.6062571664	South to North
+2019-01-07	South King	North King	515434.1656929868	North to South
+2019-01-07	South King	South King	3368026.951466269	within South
+2019-01-14	North King	North King	6031501.357362533	within North
+2019-01-14	North King	South King	948448.7396329717	South to North
+2019-01-14	South King	North King	522361.55331373145	North to South
+2019-01-14	South King	South King	3294408.235932273	within South
+2019-01-21	North King	North King	6641254.629166979	within North
+2019-01-21	North King	South King	1014929.5113439584	South to North
+2019-01-21	South King	North King	559123.9283337521	North to South
+2019-01-21	South King	South King	3530948.4056831836	within South
+2019-01-28	North King	North King	8188216.918977025	within North
+2019-01-28	North King	South King	1201647.5569451274	South to North
+2019-01-28	South King	North King	676689.1496100611	North to South
+2019-01-28	South King	South King	4432265.778440948	within South
+2019-02-04	North King	North King	5114552.014687255	within North
+2019-02-04	North King	South King	685293.496916357	South to North
+2019-02-04	South King	North King	398376.140693435	North to South
+2019-02-04	South King	South King	2882604.50350387	within South
+2019-02-11	North King	North King	5325394.626929298	within North
+2019-02-11	North King	South King	783579.6382669952	South to North
+2019-02-11	South King	North King	498488.80058049015	North to South
+2019-02-11	South King	South King	3145829.9330924703	within South
+2019-02-18	North King	North King	5843080.760076639	within North
+2019-02-18	North King	South King	954818.905974569	South to North
+2019-02-18	South King	North King	580603.7876676538	North to South
+2019-02-18	South King	South King	3359471.187110259	within South
+2019-02-25	North King	North King	7800435.1170382155	within North
+2019-02-25	North King	South King	1184528.3332006368	South to North
+2019-02-25	South King	North King	650249.2097929936	North to South
+2019-02-25	South King	South King	4291369.2022293005	within South
+2019-03-04	North King	North King	6326982.93038822	within North
+2019-03-04	North King	South King	972287.5143239626	South to North
+2019-03-04	South King	North King	531496.0635876841	North to South
+2019-03-04	South King	South King	3390686.7831325303	within South
+2019-03-11	North King	North King	6455654.798162489	within North
+2019-03-11	North King	South King	1006787.0615494633	South to North
+2019-03-11	South King	North King	547170.2914027921	North to South
+2019-03-11	South King	South King	3477064.7329462525	within South
+2019-03-18	North King	North King	6546597.824412184	within North
+2019-03-18	North King	South King	980565.2039398876	South to North
+2019-03-18	South King	North King	576344.7903026921	North to South
+2019-03-18	South King	South King	3568667.9065941814	within South
+2019-03-25	North King	North King	8219249.980182278	within North
+2019-03-25	North King	South King	1233019.9174657243	South to North
+2019-03-25	South King	North King	697917.5889830784	North to South
+2019-03-25	South King	South King	4395343.743448808	within South
+2019-04-01	North King	North King	6421703.244732189	within North
+2019-04-01	North King	South King	1008814.4597021469	South to North
+2019-04-01	South King	North King	578078.2736117641	North to South
+2019-04-01	South King	South King	3572518.459289665	within South
+2019-04-08	North King	North King	5859488.6121372385	within North
+2019-04-08	North King	South King	991386.173040403	South to North
+2019-04-08	South King	North King	604431.7363658468	North to South
+2019-04-08	South King	South King	3410566.2484295224	within South
+2019-04-15	North King	North King	6721331.174394738	within North
+2019-04-15	North King	South King	1024940.9746790063	South to North
+2019-04-15	South King	North King	561393.3959224983	North to South
+2019-04-15	South King	South King	3654408.3941140827	within South
+2019-04-22	North King	North King	6645116.209217869	within North
+2019-04-22	North King	South King	1070612.9514451572	South to North
+2019-04-22	South King	North King	585405.0358771647	North to South
+2019-04-22	South King	South King	3511394.529172262	within South
+2019-04-29	North King	North King	8422344.949429033	within North
+2019-04-29	North King	South King	1254107.7110901673	South to North
+2019-04-29	South King	North King	716776.0373168676	North to South
+2019-04-29	South King	South King	4609521.794635113	within South
+2019-05-06	North King	North King	6899100.85657888	within North
+2019-05-06	North King	South King	1050313.4424069065	South to North
+2019-05-06	South King	North King	580532.9204433457	North to South
+2019-05-06	South King	South King	3781178.7060770066	within South
+2019-05-13	North King	North King	6531099.357366206	within North
+2019-05-13	North King	South King	994759.991733458	South to North
+2019-05-13	South King	North King	548033.8062394422	North to South
+2019-05-13	South King	South King	3483238.9551809654	within South
+2019-05-20	North King	North King	6774334.76517561	within North
+2019-05-20	North King	South King	1053121.9755170404	South to North
+2019-05-20	South King	North King	583690.4785154657	North to South
+2019-05-20	South King	South King	3739617.1715093115	within South
+2019-05-27	North King	North King	8468383.056532215	within North
+2019-05-27	North King	South King	1227077.5109165662	South to North
+2019-05-27	South King	North King	709143.8727582052	North to South
+2019-05-27	South King	South King	4518700.481852979	within South
+2019-06-03	North King	North King	6993013.376320617	within North
+2019-06-03	North King	South King	1052651.8126346932	South to North
+2019-06-03	South King	North King	633312.320105483	North to South
+2019-06-03	South King	South King	3813479.251250671	within South
+2019-06-10	North King	North King	6839470.289287405	within North
+2019-06-10	North King	South King	1036657.8994231109	South to North
+2019-06-10	South King	North King	605602.4917566929	North to South
+2019-06-10	South King	South King	3778348.091695759	within South
+2019-06-17	North King	North King	6989984.440787139	within North
+2019-06-17	North King	South King	1071023.2483781422	South to North
+2019-06-17	South King	North King	648257.1011588448	North to South
+2019-06-17	South King	South King	3832946.493696291	within South
+2019-06-24	North King	North King	8415449.78936721	within North
+2019-06-24	North King	South King	1264804.68820134	South to North
+2019-06-24	South King	North King	740028.6432764377	North to South
+2019-06-24	South King	South King	4587765.122293755	within South
+2019-07-01	North King	North King	6040050.120486761	within North
+2019-07-01	North King	South King	967412.4590799678	South to North
+2019-07-01	South King	North King	590639.2028617277	North to South
+2019-07-01	South King	South King	3524747.3943567798	within South
+2019-07-08	North King	North King	6704178.230623677	within North
+2019-07-08	North King	South King	1078282.9724056837	South to North
+2019-07-08	South King	North King	645252.6697145655	North to South
+2019-07-08	South King	South King	3698239.447902089	within South
+2019-07-15	North King	North King	6517376.7457637545	within North
+2019-07-15	North King	South King	1110096.9791857318	South to North
+2019-07-15	South King	North King	617110.2814440398	North to South
+2019-07-15	South King	South King	3600916.8294538185	within South
+2019-07-22	North King	North King	6990425.308650186	within North
+2019-07-22	North King	South King	1135919.1656754434	South to North
+2019-07-22	South King	North King	711027.3160255635	North to South
+2019-07-22	South King	South King	3887788.569607408	within South
+2019-07-29	North King	North King	8301994.607234079	within North
+2019-07-29	North King	South King	1325256.2088122603	South to North
+2019-07-29	South King	North King	782671.1701331873	North to South
+2019-07-29	South King	South King	4683950.576172232	within South
+2019-08-05	North King	North King	6272109.668320658	within North
+2019-08-05	North King	South King	1086102.5205760554	South to North
+2019-08-05	South King	North King	604991.4847649692	North to South
+2019-08-05	South King	South King	3567921.872305619	within South
+2019-08-12	North King	North King	6012344.486247507	within North
+2019-08-12	North King	South King	1035758.4279685856	South to North
+2019-08-12	South King	North King	591188.9475943601	North to South
+2019-08-12	South King	South King	3316064.5322314412	within South
+2019-08-19	North King	North King	6472494.107121875	within North
+2019-08-19	North King	South King	1090362.8040668452	South to North
+2019-08-19	South King	North King	629878.4402049743	North to South
+2019-08-19	South King	South King	3654478.9267249824	within South
+2019-08-26	North King	North King	8838019.863066271	within North
+2019-08-26	North King	South King	1552767.7065297547	South to North
+2019-08-26	South King	North King	851207.5751327336	North to South
+2019-08-26	South King	South King	4638322.050647692	within South
+2019-09-02	North King	North King	6329744.109079133	within North
+2019-09-02	North King	South King	1103649.090745923	South to North
+2019-09-02	South King	North King	648343.5657507629	North to South
+2019-09-02	South King	South King	3351676.8975051437	within South
+2019-09-09	North King	North King	6152460.613599246	within North
+2019-09-09	North King	South King	1031359.5731271347	South to North
+2019-09-09	South King	North King	579452.5533454157	North to South
+2019-09-09	South King	South King	3268050.9788216613	within South
+2019-09-16	North King	North King	6351893.4415023355	within North
+2019-09-16	North King	South King	1091824.2446554794	South to North
+2019-09-16	South King	North King	588854.5582634817	North to South
+2019-09-16	South King	South King	3363981.296434474	within South
+2019-09-23	North King	North King	6544412.420229029	within North
+2019-09-23	North King	South King	1073286.4427805701	South to North
+2019-09-23	South King	North King	560646.5026052012	North to South
+2019-09-23	South King	South King	3479007.082243754	within South
+2019-09-30	North King	North King	8039363.440119065	within North
+2019-09-30	North King	South King	1265374.7960310895	South to North
+2019-09-30	South King	North King	700024.771357698	North to South
+2019-09-30	South King	South King	4280742.83221432	within South
+2019-10-07	North King	North King	6611043.454827612	within North
+2019-10-07	North King	South King	1004899.9791823479	South to North
+2019-10-07	South King	North King	556296.1503627045	North to South
+2019-10-07	South King	South King	3716024.4878503713	within South
+2019-10-14	North King	North King	6795870.736549483	within North
+2019-10-14	North King	South King	1046116.9396263981	South to North
+2019-10-14	South King	North King	576518.7415692322	North to South
+2019-10-14	South King	South King	3802244.156594639	within South
+2019-10-21	North King	North King	7132288.293510761	within North
+2019-10-21	North King	South King	1104432.5868881685	South to North
+2019-10-21	South King	North King	588825.8420537331	North to South
+2019-10-21	South King	South King	4095112.0407174244	within South
+2019-10-28	North King	North King	8634508.8110147	within North
+2019-10-28	North King	South King	1222273.209670717	South to North
+2019-10-28	South King	North King	662416.2562235616	North to South
+2019-10-28	South King	South King	4830429.566604274	within South
+2019-11-04	North King	North King	6851716.073673115	within North
+2019-11-04	North King	South King	1024630.2698960128	South to North
+2019-11-04	South King	North King	569252.042578436	North to South
+2019-11-04	South King	South King	3963230.092490987	within South
+2019-11-11	North King	North King	6615487.47709266	within North
+2019-11-11	North King	South King	964655.0974365853	South to North
+2019-11-11	South King	North King	560440.5625520137	North to South
+2019-11-11	South King	South King	3726188.0735735684	within South
+2019-11-18	North King	North King	7161516.371799733	within North
+2019-11-18	North King	South King	1037866.1187877649	South to North
+2019-11-18	South King	North King	594862.0202307581	North to South
+2019-11-18	South King	South King	4006402.348760825	within South
+2019-11-25	North King	North King	7787817.636264292	within North
+2019-11-25	North King	South King	1082195.9693506423	South to North
+2019-11-25	South King	North King	722795.0939205397	North to South
+2019-11-25	South King	South King	4776270.171692565	within South
+2019-12-02	North King	North King	6792949.467194432	within North
+2019-12-02	North King	South King	1018921.602505885	South to North
+2019-12-02	South King	North King	558393.0550788197	North to South
+2019-12-02	South King	South King	3936252.4955165735	within South
+2019-12-09	North King	North King	6896533.763219355	within North
+2019-12-09	North King	South King	1042909.455445221	South to North
+2019-12-09	South King	North King	588552.7250350615	North to South
+2019-12-09	South King	South King	4014928.7577491747	within South
+2019-12-16	North King	North King	6401557.144763408	within North
+2019-12-16	North King	South King	977220.450404377	South to North
+2019-12-16	South King	North King	591138.9604934906	North to South
+2019-12-16	South King	South King	3925382.709785686	within South
+2019-12-23	North King	North King	5393577.661701483	within North
+2019-12-23	North King	South King	909905.2890301603	South to North
+2019-12-23	South King	North King	600636.7402655265	North to South
+2019-12-23	South King	South King	3713020.2165274085	within South
+2019-12-30	North King	North King	7180967.384353884	within North
+2019-12-30	North King	South King	1165398.802532614	South to North
+2019-12-30	South King	North King	720097.9785832661	North to South
+2019-12-30	South King	South King	4601533.114647515	within South
+2020-01-06	North King	North King	6156223.254283921	within North
+2020-01-06	North King	South King	958961.2637573141	South to North
+2020-01-06	South King	North King	536961.1841738645	North to South
+2020-01-06	South King	South King	3678775.748154081	within South
+2020-01-13	North King	North King	5773169.720885396	within North
+2020-01-13	North King	South King	911490.2454117386	South to North
+2020-01-13	South King	North King	565867.1482332876	North to South
+2020-01-13	South King	South King	3700864.537614476	within South
+2020-01-20	North King	North King	6626473.730082369	within North
+2020-01-20	North King	South King	1032897.4527841845	South to North
+2020-01-20	South King	North King	609328.2959472816	North to South
+2020-01-20	South King	South King	3965537.9284349247	within South
+2020-01-27	North King	North King	8428189.978115723	within North
+2020-01-27	North King	South King	1303175.2933976264	South to North
+2020-01-27	South King	North King	734514.012611276	North to South
+2020-01-27	South King	South King	5043837.181750742	within South
+2020-02-03	North King	North King	5876076.0319662085	within North
+2020-02-03	North King	South King	924261.8319725102	South to North
+2020-02-03	South King	North King	547425.5176381577	North to South
+2020-02-03	South King	South King	3542412.7762050387	within South
+2020-02-10	North King	North King	5812663.247686243	within North
+2020-02-10	North King	South King	933414.7870188367	South to North
+2020-02-10	South King	North King	615028.5841875336	North to South
+2020-02-10	South King	South King	3564168.356559705	within South
+2020-02-17	North King	North King	5786830.451566178	within North
+2020-02-17	North King	South King	964524.2621981162	South to North
+2020-02-17	South King	North King	684927.3505934218	North to South
+2020-02-17	South King	South King	3670767.7482605637	within South
+2020-02-24	North King	North King	7045875.622050813	within North
+2020-02-24	North King	South King	1119982.718937596	South to North
+2020-02-24	South King	North King	686754.275862069	North to South
+2020-02-24	South King	South King	4276942.568860811	within South
+2020-03-02	North King	North King	5099647.103877526	within North
+2020-03-02	North King	South King	857889.5580715851	South to North
+2020-03-02	South King	North King	487617.15093133674	North to South
+2020-03-02	South King	South King	3278949.44971999	within South
+2020-03-09	North King	North King	4667586.365519057	within North
+2020-03-09	North King	South King	765302.2441863867	South to North
+2020-03-09	South King	North King	452592.2225699828	North to South
+2020-03-09	South King	South King	3291646.070962647	within South
+2020-03-16	North King	North King	3083672.3359755487	within North
+2020-03-16	North King	South King	609274.0664601681	South to North
+2020-03-16	South King	North King	321714.7696194706	North to South
+2020-03-16	South King	South King	2520587.421522118	within South
+2020-03-23	North King	North King	2652533.3425621707	within North
+2020-03-23	North King	South King	529442.0129326362	South to North
+2020-03-23	South King	North King	262017.34163867356	North to South
+2020-03-23	South King	South King	2221375.8499961365	within South
+2020-03-30	North King	North King	3198429.1593506304	within North
+2020-03-30	North King	South King	524107.9956349012	South to North
+2020-03-30	South King	North King	385230.7248516357	North to South
+2020-03-30	South King	South King	2697132.2007455	within South
+2020-04-06	North King	North King	2878713.922011085	within North
+2020-04-06	North King	South King	505136.63064133015	South to North
+2020-04-06	South King	North King	269236.44853523356	North to South
+2020-04-06	South King	South King	2528873.3665874903	within South
+2020-04-13	North King	North King	3271680.766399797	within North
+2020-04-13	North King	South King	554276.1629593195	South to North
+2020-04-13	South King	North King	284194.4511179134	North to South
+2020-04-13	South King	South King	2906622.3257781044	within South
+2020-04-20	North King	North King	2943590.0952903866	within North
+2020-04-20	North King	South King	531578.3977680872	South to North
+2020-04-20	South King	North King	276460.61484241823	North to South
+2020-04-20	South King	South King	2617108.1615143707	within South
+2020-04-27	North King	North King	3564129.7466825345	within North
+2020-04-27	North King	South King	592440.5302810791	South to North
+2020-04-27	South King	North King	314450.8365307308	North to South
+2020-04-27	South King	South King	3073950.1438669674	within South
+2020-05-04	North King	North King	3408945.8031450748	within North
+2020-05-04	North King	South King	614113.5862431419	South to North
+2020-05-04	South King	North King	316176.25259849464	North to South
+2020-05-04	South King	South King	2954022.5512530673	within South
+2020-05-11	North King	North King	3202012.2629385195	within North
+2020-05-11	North King	South King	589890.0928043472	South to North
+2020-05-11	South King	North King	309280.9558655214	North to South
+2020-05-11	South King	South King	2791429.6438007425	within South
+2020-05-18	North King	North King	3406256.951481484	within North
+2020-05-18	North King	South King	626654.1259101662	South to North
+2020-05-18	South King	North King	331624.4221927812	North to South
+2020-05-18	South King	South King	2937720.1383630154	within South
+2020-05-25	North King	North King	3296527.3744496685	within North
+2020-05-25	North King	South King	601603.9771658832	South to North
+2020-05-25	South King	North King	318184.75848817255	North to South
+2020-05-25	South King	South King	2798755.0986493547	within South
+2020-06-01	North King	North King	3625223.3656942714	within North
+2020-06-01	North King	South King	647632.0525349166	South to North
+2020-06-01	South King	North King	340753.6334515013	North to South
+2020-06-01	South King	South King	2900208.714901977	within South
+2020-06-08	North King	North King	3752659.8545841356	within North
+2020-06-08	North King	South King	665477.4566807185	South to North
+2020-06-08	South King	North King	366629.82732133346	North to South
+2020-06-08	South King	South King	3095720.9015993997	within South
+2020-06-15	North King	North King	4527071.881194761	within North
+2020-06-15	North King	South King	759703.7654052884	South to North
+2020-06-15	South King	North King	427264.6936329858	North to South
+2020-06-15	South King	South King	3683667.7479419927	within South
+2020-06-22	North King	North King	4367965.896922324	within North
+2020-06-22	North King	South King	787067.3357420905	South to North
+2020-06-22	South King	North King	459098.3733631505	North to South
+2020-06-22	South King	South King	3553265.9266816447	within South
+2020-06-29	North King	North King	4250902.7893450055	within North
+2020-06-29	North King	South King	746099.5062965092	South to North
+2020-06-29	South King	North King	451965.38468796376	North to South
+2020-06-29	South King	South King	3439877.181140431	within South
+2020-07-06	North King	North King	4410177.922517784	within North
+2020-07-06	North King	South King	800632.6262693645	South to North
+2020-07-06	South King	North King	430808.2062782129	North to South
+2020-07-06	South King	South King	3411854.6536924774	within South
+2020-07-13	North King	North King	4417553.364311638	within North
+2020-07-13	North King	South King	777234.9072511221	South to North
+2020-07-13	South King	North King	447795.48840300774	North to South
+2020-07-13	South King	South King	3405306.3180792658	within South
+2020-07-20	North King	North King	4461899.949760364	within North
+2020-07-20	North King	South King	802807.1057070566	South to North
+2020-07-20	South King	North King	457115.8173956116	North to South
+2020-07-20	South King	South King	3473045.4830481806	within South
+2020-07-27	North King	North King	4514181.332018189	within North
+2020-07-27	North King	South King	755080.2205612271	South to North
+2020-07-27	South King	North King	482489.38890085113	North to South
+2020-07-27	South King	South King	3480795.6378590795	within South
+2020-08-03	North King	North King	4548359.016369525	within North
+2020-08-03	North King	South King	802208.004865634	South to North
+2020-08-03	South King	North King	463367.24828266894	North to South
+2020-08-03	South King	South King	3428223.868383613	within South
+2020-08-10	North King	North King	4356926.039897165	within North
+2020-08-10	North King	South King	780304.8854887933	South to North
+2020-08-10	South King	North King	436239.39837859676	North to South
+2020-08-10	South King	South King	3206265.597797098	within South
+2020-08-17	North King	North King	4249124.615107017	within North
+2020-08-17	North King	South King	748680.9191872014	South to North
+2020-08-17	South King	North King	441037.9331707985	North to South
+2020-08-17	South King	South King	3171200.4971665386	within South
+2020-08-24	North King	North King	4393471.353594833	within North
+2020-08-24	North King	South King	768028.6555202735	South to North
+2020-08-24	South King	North King	460441.5781566318	North to South
+2020-08-24	South King	South King	3327245.999599224	within South
+2020-08-31	North King	North King	4344244.477422256	within North
+2020-08-31	North King	South King	716073.7327857463	South to North
+2020-08-31	South King	North King	454155.6721425361	North to South
+2020-08-31	South King	South King	3250996.2900984846	within South
+2020-09-07	North King	North King	4021322.2285611797	within North
+2020-09-07	North King	South King	655578.253848322	South to North
+2020-09-07	South King	North King	414995.4979437181	North to South
+2020-09-07	South King	South King	3113356.468822667	within South
+2020-09-14	North King	North King	3932784.708253321	within North
+2020-09-14	North King	South King	759141.6954644616	South to North
+2020-09-14	South King	North King	400385.94303144305	North to South
+2020-09-14	South King	South King	3008788.4527667826	within South
+2020-09-21	North King	North King	4212492.83689761	within North
+2020-09-21	North King	South King	763189.4067653035	South to North
+2020-09-21	South King	North King	430438.6067523816	North to South
+2020-09-21	South King	South King	3325212.0360088735	within South
+2020-09-28	North King	North King	4278664.325680626	within North
+2020-09-28	North King	South King	702603.5540269016	South to North
+2020-09-28	South King	North King	456477.10807994014	North to South
+2020-09-28	South King	South King	3248879.0380392	within South
+2020-10-05	North King	North King	4101710.690287722	within North
+2020-10-05	North King	South King	677515.2440459802	South to North
+2020-10-05	South King	North King	442385.02835903084	North to South
+2020-10-05	South King	South King	3172959.442146201	within South
+2020-10-12	North King	North King	4055657.3070270196	within North
+2020-10-12	North King	South King	666674.166834082	South to North
+2020-10-12	South King	North King	444633.85675883986	North to South
+2020-10-12	South King	South King	3160448.3134109126	within South
+2020-10-19	North King	North King	4144886.0532203703	within North
+2020-10-19	North King	South King	694926.2579413666	South to North
+2020-10-19	South King	North King	440437.4182557059	North to South
+2020-10-19	South King	South King	3231815.7913563275	within South
+2020-10-26	North King	North King	4202024.123858296	within North
+2020-10-26	North King	South King	724750.9701983557	South to North
+2020-10-26	South King	North King	494670.49216666276	North to South
+2020-10-26	South King	South King	3279648.374535077	within South
+2020-11-02	North King	North King	4038953.5517405304	within North
+2020-11-02	North King	South King	724032.8312662818	South to North
+2020-11-02	South King	North King	469276.0090487708	North to South
+2020-11-02	South King	South King	3147463.6676752972	within South
+2020-11-09	North King	North King	4028091.8903477206	within North
+2020-11-09	North King	South King	689830.9466088023	South to North
+2020-11-09	South King	North King	446900.1941622335	North to South
+2020-11-09	South King	South King	3272521.663743451	within South
+2020-11-16	North King	North King	3700218.203419816	within North
+2020-11-16	North King	South King	649250.6258990114	South to North
+2020-11-16	South King	North King	394405.3121857288	North to South
+2020-11-16	South King	South King	2941563.1086978717	within South
+2020-11-23	North King	North King	3525250.989615749	within North
+2020-11-23	North King	South King	576933.043452248	South to North
+2020-11-23	South King	North King	413546.3596389582	North to South
+2020-11-23	South King	South King	2930617.722083728	within South
+2020-11-30	North King	North King	3882119.3244492095	within North
+2020-11-30	North King	South King	694165.108197765	South to North
+2020-11-30	South King	North King	385777.69788061053	North to South
+2020-11-30	South King	South King	3097576.2411278835	within South
+2020-12-07	North King	North King	3873644.8703525844	within North
+2020-12-07	North King	South King	704315.5132613617	South to North
+2020-12-07	South King	North King	375145.63499438326	North to South
+2020-12-07	South King	South King	3024295.0980950478	within South
+2020-12-14	North King	North King	3904243.291377161	within North
+2020-12-14	North King	South King	677055.826948335	South to North
+2020-12-14	South King	North King	465545.86687587935	North to South
+2020-12-14	South King	South King	3252993.1556228423	within South
+2020-12-21	North King	North King	3884417.095821785	within North
+2020-12-21	North King	South King	603595.9280603009	South to North
+2020-12-21	South King	North King	435520.57663833577	North to South
+2020-12-21	South King	South King	3146452.422134857	within South
+2020-12-28	North King	North King	3791400.605991296	within North
+2020-12-28	North King	South King	594207.264543606	South to North
+2020-12-28	South King	North King	427063.6232910299	North to South
+2020-12-28	South King	South King	3033757.6203728784	within South
+2021-01-04	North King	North King	3650803.352521089	within North
+2021-01-04	North King	South King	612596.211809353	South to North
+2021-01-04	South King	North King	382380.04386676097	North to South
+2021-01-04	South King	South King	2965987.0967000746	within South
+2021-01-11	North King	North King	3786286.916967609	within North
+2021-01-11	North King	South King	632126.2363856891	South to North
+2021-01-11	South King	North King	389247.6193098108	North to South
+2021-01-11	South King	South King	2948096.08528003	within South
+2021-01-18	North King	North King	4032512.425512655	within North
+2021-01-18	North King	South King	716486.8011542442	South to North
+2021-01-18	South King	North King	373217.51788376865	North to South
+2021-01-18	South King	South King	2968722.279155191	within South
+2021-01-25	North King	North King	3923019.950367195	within North
+2021-01-25	North King	South King	675739.6350373796	South to North
+2021-01-25	South King	North King	364602.89608532574	North to South
+2021-01-25	South King	South King	3019316.256325552	within South
+2021-02-01	North King	North King	4080173.7837040876	within North
+2021-02-01	North King	South King	690889.8276624689	South to North
+2021-02-01	South King	North King	392611.54220658314	North to South
+2021-02-01	South King	South King	3237829.8867676463	within South
+2021-02-08	North King	North King	3680770.239281321	within North
+2021-02-08	North King	South King	621609.5671415748	South to North
+2021-02-08	South King	North King	380380.38718745264	North to South
+2021-02-08	South King	South King	2997025.0309878504	within South
+2021-02-15	North King	North King	4192922.6259137434	within North
+2021-02-15	North King	South King	738917.3766703217	South to North
+2021-02-15	South King	North King	499504.69543494156	North to South
+2021-02-15	South King	South King	3466390.5832529245	within South
+2021-02-22	North King	North King	4686454.261009997	within North
+2021-02-22	North King	South King	794697.7425305668	South to North
+2021-02-22	South King	North King	482144.12726114143	North to South
+2021-02-22	South King	South King	3741423.8704209644	within South
+2021-03-01	North King	North King	5038731.084563959	within North
+2021-03-01	North King	South King	812625.0312811814	South to North
+2021-03-01	South King	North King	520506.7842953835	North to South
+2021-03-01	South King	South King	4007278.5553781684	within South
+2021-03-08	North King	North King	4807529.406180396	within North
+2021-03-08	North King	South King	802132.3414764489	South to North
+2021-03-08	South King	North King	516390.30292090826	North to South
+2021-03-08	South King	South King	3906905.5603278168	within South
+2021-03-15	North King	North King	4714898.265515139	within North
+2021-03-15	North King	South King	791271.3776612629	South to North
+2021-03-15	South King	North King	522846.4758183098	North to South
+2021-03-15	South King	South King	3823686.4705131142	within South
+2021-03-22	North King	North King	4614569.386044827	within North
+2021-03-22	North King	South King	746147.9154648198	South to North
+2021-03-22	South King	North King	506590.70742126275	North to South
+2021-03-22	South King	South King	3570142.5663451785	within South
+2021-03-29	North King	North King	4973426.42574837	within North
+2021-03-29	North King	South King	792715.3290773532	South to North
+2021-03-29	South King	North King	566553.7166598323	North to South
+2021-03-29	South King	South King	3885738.6710866736	within South
+2021-04-05	North King	North King	4629089.934469261	within North
+2021-04-05	North King	South King	782812.9965461663	South to North
+2021-04-05	South King	North King	562265.820124338	North to South
+2021-04-05	South King	South King	3731201.808933917	within South
+2021-04-12	North King	North King	5066152.51369549	within North
+2021-04-12	North King	South King	792795.5990840573	South to North
+2021-04-12	South King	North King	585739.6924716632	North to South
+2021-04-12	South King	South King	3984531.237253917	within South
+2021-04-19	North King	North King	4878060.429058359	within North
+2021-04-19	North King	South King	749583.2355183312	South to North
+2021-04-19	South King	North King	535115.1080573292	North to South
+2021-04-19	South King	South King	3735527.7311236216	within South
+2021-04-26	North King	North King	4980006.582697707	within North
+2021-04-26	North King	South King	748220.9421910001	South to North
+2021-04-26	South King	North King	528359.1791476451	North to South
+2021-04-26	South King	South King	3804099.7213825965	within South
+2021-05-03	North King	North King	5023800.695531799	within North
+2021-05-03	North King	South King	853507.4548144508	South to North
+2021-05-03	South King	North King	525434.0208753672	North to South
+2021-05-03	South King	South King	3776942.443466585	within South
+2021-05-10	North King	North King	5109795.474638379	within North
+2021-05-10	North King	South King	837391.2316297012	South to North
+2021-05-10	South King	North King	530098.5564513019	North to South
+2021-05-10	South King	South King	3804068.6303953705	within South
+2021-05-17	North King	North King	5142731.690320399	within North
+2021-05-17	North King	South King	780658.276881749	South to North
+2021-05-17	South King	North King	539359.4668338937	North to South
+2021-05-17	South King	South King	3865657.873611926	within South
+2021-05-24	North King	North King	4762572.798026114	within North
+2021-05-24	North King	South King	745739.5708546225	South to North
+2021-05-24	South King	North King	512422.56657495967	North to South
+2021-05-24	South King	South King	3623639.9728372414	within South
+2021-05-31	North King	North King	5063348.960607624	within North
+2021-05-31	North King	South King	775015.4895139079	South to North
+2021-05-31	South King	North King	555859.9004453345	North to South
+2021-05-31	South King	South King	3916870.266944453	within South
+2021-06-07	North King	North King	4922632.364167477	within North
+2021-06-07	North King	South King	872937.8875365141	South to North
+2021-06-07	South King	North King	503888.23563777993	North to South
+2021-06-07	South King	South King	3728892.20107108	within South
+2021-06-14	North King	North King	5188568.949231315	within North
+2021-06-14	North King	South King	884964.5730171173	South to North
+2021-06-14	South King	North King	587218.9826399997	North to South
+2021-06-14	South King	South King	4051717.2821791056	within South
+2021-06-21	North King	North King	4906629.002137454	within North
+2021-06-21	North King	South King	835588.6177244328	South to North
+2021-06-21	South King	North King	593066.2606050641	North to South
+2021-06-21	South King	South King	4102341.3257152243	within South
+2021-06-28	North King	North King	4622329.4246646045	within North
+2021-06-28	North King	South King	817254.1696504455	South to North
+2021-06-28	South King	North King	592103.8032047951	North to South
+2021-06-28	South King	South King	3816708.766325909	within South
+2021-07-05	North King	North King	4863973.597066168	within North
+2021-07-05	North King	South King	863336.7048332442	South to North
+2021-07-05	South King	North King	591872.4711075441	North to South
+2021-07-05	South King	South King	3736067.651551632	within South
+2021-07-12	North King	North King	4731823.968282819	within North
+2021-07-12	North King	South King	831502.8615728284	South to North
+2021-07-12	South King	North King	584077.7958267756	North to South
+2021-07-12	South King	South King	3894960.2302854923	within South
+2021-07-19	North King	North King	4776867.555323591	within North
+2021-07-19	North King	South King	839418.1753653444	South to North
+2021-07-19	South King	North King	589637.7995824635	North to South
+2021-07-19	South King	South King	3932037.4718162846	within South
+2021-07-26	North King	North King	4877540.210062461	within North
+2021-07-26	North King	South King	880309.610989769	South to North
+2021-07-26	South King	North King	616211.4223857148	North to South
+2021-07-26	South King	South King	4072327.22140476	within South
+2021-08-02	North King	North King	5012027.259676814	within North
+2021-08-02	North King	South King	880476.2574220217	South to North
+2021-08-02	South King	North King	647736.6907177753	North to South
+2021-08-02	South King	South King	4170808.61330327	within South
+2021-08-09	North King	North King	4815767.109120903	within North
+2021-08-09	North King	South King	850724.4548477075	South to North
+2021-08-09	South King	North King	610135.8323028556	North to South
+2021-08-09	South King	South King	3925288.9176039845	within South
+2021-08-16	North King	North King	4843140.210155022	within North
+2021-08-16	North King	South King	857807.8518860294	South to North
+2021-08-16	South King	North King	630475.341181249	North to South
+2021-08-16	South King	South King	3997188.7023647074	within South
+2021-08-23	North King	North King	4602674.285666833	within North
+2021-08-23	North King	South King	821046.9569838896	South to North
+2021-08-23	South King	North King	624342.2750373691	North to South
+2021-08-23	South King	South King	3954409.922770304	within South
+2021-08-30	North King	North King	4810106.143378875	within North
+2021-08-30	North King	South King	872742.4686304677	South to North
+2021-08-30	South King	North King	587032.1647835538	North to South
+2021-08-30	South King	South King	4060482.7015730627	within South
+2021-09-06	North King	North King	5164530.84757003	within North
+2021-09-06	North King	South King	896795.4746259388	South to North
+2021-09-06	South King	North King	579200.229255304	North to South
+2021-09-06	South King	South King	4221556.997087463	within South
+2021-09-13	North King	North King	4988833.989015595	within North
+2021-09-13	North King	South King	820433.9984580254	South to North
+2021-09-13	South King	North King	564247.9214944333	North to South
+2021-09-13	South King	South King	4041956.105419087	within South
+2021-09-20	North King	North King	4894431.69324153	within North
+2021-09-20	North King	South King	807875.7549827868	South to North
+2021-09-20	South King	North King	578968.3375611524	North to South
+2021-09-20	South King	South King	4023511.5399981886	within South
+2021-09-27	North King	North King	5115056.672066686	within North
+2021-09-27	North King	South King	861085.4640640877	South to North
+2021-09-27	South King	North King	577558.2963468677	North to South
+2021-09-27	South King	South King	4091917.694584034	within South
+2021-10-04	North King	North King	5128572.03171885	within North
+2021-10-04	North King	South King	855122.0285949429	South to North
+2021-10-04	South King	North King	569370.1952440989	North to South
+2021-10-04	South King	South King	4048928.8006058703	within South
+2021-10-11	North King	North King	5077003.394103544	within North
+2021-10-11	North King	South King	801573.2868755634	South to North
+2021-10-11	South King	North King	601446.0917459407	North to South
+2021-10-11	South King	South King	3976836.074069156	within South
+2021-10-18	North King	North King	5261683.008175701	within North
+2021-10-18	North King	South King	824737.642471793	South to North
+2021-10-18	South King	North King	602502.7866585323	North to South
+2021-10-18	South King	South King	4093491.4976288686	within South
+2021-10-25	North King	North King	5084504.169965176	within North
+2021-10-25	North King	South King	775206.4354101898	South to North
+2021-10-25	South King	North King	555058.1304971798	North to South
+2021-10-25	South King	South King	3942471.671464288	within South
+2021-11-01	North King	North King	5230176.814540054	within North
+2021-11-01	North King	South King	822974.1009834443	South to North
+2021-11-01	South King	North King	549728.9662644806	North to South
+2021-11-01	South King	South King	3991189.451516303	within South
+2021-11-08	North King	North King	5193559.009607958	within North
+2021-11-08	North King	South King	842698.9181993732	South to North
+2021-11-08	South King	North King	568051.1523792173	North to South
+2021-11-08	South King	South King	4024384.663546601	within South
+2021-11-15	North King	North King	4575316.872888289	within North
+2021-11-15	North King	South King	708440.2432422068	South to North
+2021-11-15	South King	North King	568431.42430121	North to South
+2021-11-15	South King	South King	3540035.2532550544	within South
+2021-11-22	North King	North King	5018122.445742701	within North
+2021-11-22	North King	South King	764365.8934988399	South to North
+2021-11-22	South King	North King	608440.8973307596	North to South
+2021-11-22	South King	South King	3795789.2386975945	within South
+2021-11-29	North King	North King	4486147.341756739	within North
+2021-11-29	North King	South King	694130.2857352876	South to North
+2021-11-29	South King	North King	618881.3255118282	North to South
+2021-11-29	South King	South King	3642468.265409175	within South
+2021-12-06	North King	North King	4890866.037913313	within North
+2021-12-06	North King	South King	744385.4936464918	South to North
+2021-12-06	South King	North King	603111.168259305	North to South
+2021-12-06	South King	South King	3762155.9712238493	within South
+2021-12-13	North King	North King	4885244.268892737	within North
+2021-12-13	North King	South King	738715.0513010629	South to North
+2021-12-13	South King	North King	596564.6060665137	North to South
+2021-12-13	South King	South King	3674714.3431245964	within South
+2021-12-20	North King	North King	5006878.90770155	within North
+2021-12-20	North King	South King	786171.5430331929	South to North
+2021-12-20	South King	North King	679187.5750052733	North to South
+2021-12-20	South King	South King	3916985.8175827265	within South
+2021-12-27	North King	North King	3778145.158438213	within North
+2021-12-27	North King	South King	610144.4637006308	South to North
+2021-12-27	South King	North King	540103.5492364924	North to South
+2021-12-27	South King	South King	3301584.6347979214	within South
+2022-01-03	North King	North King	3359749.257997814	within North
+2022-01-03	North King	South King	458819.09673120314	South to North
+2022-01-03	South King	North King	448135.3019258672	North to South
+2022-01-03	South King	South King	2872577.9495394663	within South
+2022-01-10	North King	North King	4335430.391347979	within North
+2022-01-10	North King	South King	622750.8548376787	South to North
+2022-01-10	South King	North King	556555.1330369641	North to South
+2022-01-10	South King	South King	3461671.200240973	within South
+2022-01-17	North King	North King	4470717.89777819	within North
+2022-01-17	North King	South King	688703.210014126	South to North
+2022-01-17	South King	North King	560375.9890379612	North to South
+2022-01-17	South King	South King	3540010.9165926278	within South
+2022-01-24	North King	North King	4325647.053052432	within North
+2022-01-24	North King	South King	683154.4509808308	South to North
+2022-01-24	South King	North King	510583.1777128649	North to South
+2022-01-24	South King	South King	3473109.4315815377	within South
+2022-01-31	North King	North King	4270938.235917136	within North
+2022-01-31	North King	South King	686975.306981828	South to North
+2022-01-31	South King	North King	463224.0326304419	North to South
+2022-01-31	South King	South King	3432272.5120294793	within South
+2022-02-07	North King	North King	4476875.073372153	within North
+2022-02-07	North King	South King	694276.305709848	South to North
+2022-02-07	South King	North King	516886.37328138883	North to South
+2022-02-07	South King	South King	3599757.4228502577	within South
+2022-02-14	North King	North King	4736790.6280896645	within North
+2022-02-14	North King	South King	702745.4642343512	South to North
+2022-02-14	South King	North King	504133.96216978057	North to South
+2022-02-14	South King	South King	3698612.9456276484	within South
+2022-02-21	North King	North King	5014155.569767144	within North
+2022-02-21	North King	South King	791379.5887925138	South to North
+2022-02-21	South King	North King	638180.2988162277	North to South
+2022-02-21	South King	South King	3850546.7291577444	within South
+2022-02-28	North King	North King	4754775.42162302	within North
+2022-02-28	North King	South King	782326.350369769	South to North
+2022-02-28	South King	North King	707515.4500699908	North to South
+2022-02-28	South King	South King	3865951.836473867	within South
+2022-03-07	North King	North King	5158715.344581939	within North
+2022-03-07	North King	South King	781620.5871593938	South to North
+2022-03-07	South King	North King	616374.6492818746	North to South
+2022-03-07	South King	South King	3982986.8460840276	within South
+2022-03-14	North King	North King	5184414.86010457	within North
+2022-03-14	North King	South King	819731.8005196581	South to North
+2022-03-14	South King	North King	607053.7075724357	North to South
+2022-03-14	South King	South King	3955827.130815793	within South
+2022-03-21	North King	North King	4919656.309564139	within North
+2022-03-21	North King	South King	764463.2401485468	South to North
+2022-03-21	South King	North King	629589.4569795908	North to South
+2022-03-21	South King	South King	3935359.99771491	within South
+2022-03-28	North King	North King	5244599.426285882	within North
+2022-03-28	North King	South King	843289.689748736	South to North
+2022-03-28	South King	North King	743119.9872003017	North to South
+2022-03-28	South King	South King	4037768.673206604	within South
