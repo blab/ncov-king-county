@@ -1,19 +1,18 @@
 # Local-Scale phylodynamics reveal differential community impact of SARS-CoV-2 in metropolitan US county
-Miguel I. Paredes1,2*, Amanda C. Perofsky3,4, Lauren Frisbie5, Louise H. Moncla6, Pavitra Roychoudhury2,7, Hong Xie7, Shah A. Mohamed Bakhash7, Kevin Kong7, Isabel Arnould7, Tien V. Nguyen7, Seffir T. Wendm7, Pooneh Hajian7, Sean Ellis7, Patrick C. Mathias7, Alexander Greninger2,7, Lea M. Starita3,8, Chris D. Frazar8, Erica Ryke8, Weizhi Zhong3, Luis Gamboa3, Machiko Threlkeld8, Jover Lee2, Jeremy Stone3, Evan McDermot3, Melissa Truong8, Jay Shendure3,8,9, Hanna Oltean5, Cécile Viboud4, Helen Chu10, Nicola F. Müller2† , Trevor Bedford1,2,3,8,9†
+Miguel I. Paredes<sup>1,2,*</sup>, Amanda C. Perofsky<sup>3,4</sup>, Lauren Frisbie<sup>5</sup>, Louise H. Moncla<sup>6</sup>, Pavitra Roychoudhury<sup>2,7</sup>, Hong Xie<sup>7</sup>, Shah A. Mohamed Bakhash<sup>7</sup>, Kevin Kong<sup>7</sup>, Isabel Arnould<sup>7</sup>, Tien V. Nguyen<sup>7</sup>, Seffir T. Wendm<sup>7</sup>, Pooneh Hajian<sup>7</sup>, Sean Ellis<sup>7</sup>, Patrick C. Mathias<sup>7</sup>, Alexander Greninger<sup>2,7</sup>, Lea M. Starita<sup>3,8</sup>, Chris D. Frazar<sup>8</sup>, Erica Ryke<sup>8</sup>, Weizhi Zhong<sup>3</sup>, Luis Gamboa<sup>3</sup>, Machiko Threlkeld<sup>8</sup>, Jover Lee<sup>2</sup>, Jeremy Stone<sup>3</sup>, Evan McDermot<sup>3</sup>, Melissa Truong<sup>8</sup>, Jay Shendure<sup>3,8,9</sup>, Hanna Oltean<sup>5</sup>, Cécile Viboud<sup>4</sup>, Helen Chu<sup>10</sup>, Nicola F. Müller<sup>2,†</sup>, Trevor Bedford<sup>1,2,3,8,9,†</sup>
 
-
-Affiliations
-1 Department of Epidemiology, University of Washington, Seattle, WA, USA
-2 Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Center, Seattle, Washington, USA
-3 Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA USA
-4 Fogarty International Center, National Institutes of Health, Bethesda, MD, USA
-5 Washington State Department of Health, Shoreline, WA USA
-6 The University of Pennsylvania, Department of Pathobiology, Philadelphia, PA
-7 Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA
-8 Department of Genome Sciences, University of Washington, Seattle, WA, USA
-9 Howard Hughes Medical Institute, Seattle, WA, USA
-10 Department of Medicine, Division of Allergy and Infectious Diseases, University of Washington, Seattle, WA
-†These authors jointly supervised this work.
+<sup>1</sup>Department of Epidemiology, University of Washington, Seattle, WA, USA
+<sup>2</sup>Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Center, Seattle, Washington, USA
+<sup>3</sup>Brotman Baty Institute for Precision Medicine, University of Washington, Seattle, WA USA
+<sup>4</sup>Fogarty International Center, National Institutes of Health, Bethesda, MD, USA
+<sup>5</sup>Washington State Department of Health, Shoreline, WA USA
+<sup>6</sup>The University of Pennsylvania, Department of Pathobiology, Philadelphia, PA
+<sup>7</sup>Department of Laboratory Medicine and Pathology, University of Washington, Seattle, WA, USA
+<sup>8</sup>Department of Genome Sciences, University of Washington, Seattle, WA, USA
+<sup>9</sup>Howard Hughes Medical Institute, Seattle, WA, USA
+<sup>10</sup>Department of Medicine, Division of Allergy and Infectious Diseases, University of Washington, Seattle, WA
+<sup>*</sup>To whom correspondence should be addressed.
+<sup>†</sup>These authors jointly supervised this work.
 
 ## Abstract
 
