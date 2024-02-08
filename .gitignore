@@ -16,6 +16,7 @@ out/*.trees
 *.state
 *.fasta
 *.Rhistory
+*.RData
 
 Simulations/Validation-Constant/data/kc_clusters_combined.fasta
 
