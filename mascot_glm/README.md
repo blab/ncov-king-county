@@ -15,3 +15,5 @@ To understand SARS-CoV-2 transmission within and between regions studied, we emp
 
 4. To run MASCOT GLM, while in the `mascot_glm/`folder in your terminal, type `java -jar Nab.jar xml/{xml_name}` for each separate subsampling scheme.
 
+5. Raw BEAST results used in this manuscript can be found under `results/`
+

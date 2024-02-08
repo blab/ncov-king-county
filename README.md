@@ -35,3 +35,6 @@ To analyze the posterior set of trees and log files produced by MASCOT-GLM, go t
 Finally, to produce the manuscript figures, run the notebooks found in `analysis/figures/`
 
 All sequence accession IDs and associated North/South King County divisions used in this manuscript and provided by the Washington State Department of Health can be found in `final_acknowledgements_gisaid.csv`
+
+Raw Beast Results and MASCOT-GLM XMLs can be found in `mascot_glm/results` and `mascot_glm/xmls`. MCC trees and any other results that require posterior processing can be found under `analysis/data-files/`
+
