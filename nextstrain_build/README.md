@@ -1,12 +1,14 @@
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/nextstrain/ncov)](https://github.com/nextstrain/ncov/releases)
-[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html)
 
 # Specific info about the King County build
-- The `builds.yaml` for the King County build can be found under `my_profiles/kc_puma/` along with the associated config files.
+- The `builds.yaml` for the variant specific King County build can be found under `my_profiles/variant_build/` along with the associated config files. This can be run by using the Nextstrain CLI command as follows: `nextstrain build . --configfile my_profiles/variant_build/builds.yaml -p`
 - In order to incorporate `Puma` metadata, a custom Snakemake rule (`download_metadata_with_puma.smk`) was added to the build which uses `scan_seq_puma_sourcename.tsv` obtained from a Metabase query and contains strain name and associated Puma and then adds it to the downloaded metadata from the Nextstrain S3 bucket using `scripts/puma_kc_seq_merge.py`
 
 
 #Everything below is from the upstream Nextrain/ncov repository
+
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/nextstrain/ncov)](https://github.com/nextstrain/ncov/releases)
+[![See recent changes](https://img.shields.io/badge/changelog-See%20recent%20changes-blue)](https://docs.nextstrain.org/projects/ncov/en/latest/reference/change_log.html)
+
 
 # About
 

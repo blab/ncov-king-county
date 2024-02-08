@@ -20,7 +20,7 @@ SARS-CoV-2 transmission is largely driven by heterogeneous dynamics at a local s
 
 ## Organization
 
-This repository contains the analytic code needed to reproduce the results from the above paper. To start, begin with the folder `nextstrain_build` to run the maximum likelihood analysis and create the temporally resolved phylogeny of SARS-CoV-2 in King County.
+This repository contains the analytic code needed to reproduce the results from the above paper. To start, begin with the folder `nextstrain_build` to run the maximum likelihood analysis and create the temporally resolved phylogenies of SARS-CoV-2 in King County.
 
 Then `nextstrain_build/cluster_assignment/` contains the script `KCparsimonyclusters.m` needed to assign local outbreak clusters needed to conduct the MASCOT-GLM analysis
 
