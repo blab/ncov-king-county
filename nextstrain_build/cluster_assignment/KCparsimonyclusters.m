@@ -4,9 +4,9 @@ sample_cutoff = '2022-06-03';
 %% distance based clustering
 date_cutoff = datenum(sample_cutoff);
 
-tree = phytreeread('~/Desktop/new_variants_pull/other_tree.nwk');
+tree = phytreeread('../results/other_tree.nwk');
 % get all WA sequences
-f = fopen('~/Desktop/new_variants_pull/other_sub_subsampled_metadata.tsv');
+f = fopen('../results/other_sub_subsampled_metadata.tsv');
 line = strsplit(fgets(f), '\t');
 div_id = find(ismember(line,'division'));
 date_id = find(ismember(line,'date'));
@@ -48,7 +48,7 @@ fclose(f);
 leafs = get(tree, 'leafnames');
 
 %%
-is_kc = find(ismember(division, 'King County'));
+is_kc = find(ismember(division, 'King County WA'));
 
 is_kc_leaf = false(length(leafs), 1);
 for i = 1 : length(leafs)
